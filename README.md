@@ -32,7 +32,8 @@ has been generated. You don't need to open it as RStudio will automatically show
 
 Those 8 steps should be enaugh to review the projects.
 
-You can find aditional <code>.R</code>, <code>.Rmd</code> and <code>.html</code> files refered to the "full submission" part of the project, you may view and review them, but I don't think they are part of evaluation process:
+You can find aditional <code>.R</code> and <code>.Rmd</code> files refered to the "full submission" part of the project in same name subdir,
+you may view and review them, but I don't think they are part of evaluation process:
 
 + <code>full_submission.R</code> the full submission part of project in R
 
@@ -42,10 +43,12 @@ You can find aditional <code>.R</code>, <code>.Rmd</code> and <code>.html</code>
 not necesary as I was able to create a project from the scratch. All files to be reviewed are delivered
 accordind to the project asignments.
 
-**Where is the <pre>figure</pre> directory**
+**about the <code>figure</code> directory !!**
 
-it is automatically created the <code>PA1_template_files</code> and its subdirectory <code>figure-html</code>
-where the figures are saved
+When running <code>PA1_template.Rmd</code> it is automatically created the <code>PA1_template_files</code> and its subdirectory <code>figure-html</code>
+where the figures are saved or overwritten.
+
+the directory <code>figure</code> is just a manual copy of all generated graphic files from <code>PA1_template_files/figure-html</code>.
 
 .
 
